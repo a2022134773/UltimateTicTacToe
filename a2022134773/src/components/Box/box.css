@@ -1,0 +1,54 @@
+
+  .divGeral{
+    width: 100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+  }
+
+  .divGeral.p.p { 
+    margin-top: 1em ;
+  }
+
+  .board {
+    border: 2px solid gray;
+  }
+
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  .status{
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    place-content: center;
+    /*grid-gap: 1fr;*/
+    place-items: center;
+  }
+
+  .winner-x {
+    background: red;
+  }
+
+  .winner-y {
+    background-color: blue;
+  }

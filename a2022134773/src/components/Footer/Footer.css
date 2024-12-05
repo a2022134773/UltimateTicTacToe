@@ -1,0 +1,17 @@
+.footer {
+  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 6vh;
+  font-size: 0.8em;
+  text-align: center;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  color: white;
+  background-color: #18314F;
+}
+
+h2{
+    margin-top: 2vh;
+}

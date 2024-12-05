@@ -1,0 +1,22 @@
+.reset {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 25px;
+}
+
+.reset:hover {
+  transition: 0.5s;
+  background-color: #18314F;
+  color: white;
+}
+
+/*font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    justify-content: center;
+    */
